@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(205 205 205 / 30%);
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+#navbar ul
+{
+    display: flex;
+}
+#navbar ul li
+{
+    list-style: none;
+    margin: 15px;
+    font:caption
+}
+#r-nav
+{
+    margin-left: auto;
+    margin-right: 15px;
+    display: flex;
+    width: 341px;
+    justify-content: space-around;
+}
+#search
+{
+    padding: 3px;
+    font-size: larger;
+}
+#btn
+{
+    width: 56px;
+}
+.temp
+{
+    display: flex;
+    background: aqua;
+    /* width: 95%; */
+    margin: 52px;
+    border-radius: 10px;
+    align-items: center;
+}
+.temp:hover
+{
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+.text
+{
+    margin: 40px;
+}
+h2
+{
+    margin-bottom: 17px;
+}
+.img
+{
+    height: 200px;
+    width: 2100px;
+    margin: 40px;
+    /* align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: azure;
+    background-size: cover;
+    background-image: coral;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+img
+{
+    border-radius: 18px;
+}
+.irmn
+{
+    background-image:url(/assets/iron\ man\ images.jpg);
+    border-radius:14px;
+}
+h2
+{
+    text-transform: capitalize;
+}
+h3
+{
+    position: absolute;
+}
